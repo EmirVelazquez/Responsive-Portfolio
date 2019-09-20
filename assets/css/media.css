@@ -37,8 +37,13 @@
   .work {
     width: 100%;
   }
-  
+
+  #masthead {
+    position: absolute;
+  }
+
 }
+
 
 /* Media Queries 768px */
 @media screen and (min-width: 641px) and (max-width: 768px) {
@@ -47,16 +52,16 @@
   }
 
   #logo {
-    margin-left: 20px;
+    margin-left: 15px;
   }
 
   nav {
-    padding-right: 20px;
+    padding-right: 15px;
   }
 
   .main-section {
     width: 95%;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-right: 15px;
   }
 
@@ -67,6 +72,37 @@
   .work {
     width: 33%;
   }
+
+}
+
+/* Media Queries 980px */
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  body {
+    background-color: #332f2f;
+  }
+
+  #logo {
+    margin-left: 40px;
+  }
+
+  nav {
+    padding-right: 40px;
+  }
+
+  .main-section {
+    width: 60%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .work {
+    width: 40%;
+  }
+
+  .work h3 {
+    padding: 3px;
+  }
+
 
 
 }
