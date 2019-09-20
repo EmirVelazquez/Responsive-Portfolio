@@ -1,0 +1,38 @@
+/* Media Queries for 640px Index Page */
+@media screen and (max-width: 640px) {
+    body {
+      background-color: #332f2f;
+    }
+      
+    #main-container {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .main-section {
+      width: 100%;
+      margin-top: 150px;
+    }
+  
+    h1 {
+      width: 100%;
+    }
+  
+    .auth-image {
+      width: 100%;
+    }
+    
+    nav {
+      float: none;
+      text-align: center;
+    }
+  
+    #logo {
+      float: none;
+      padding: 30px;
+      width: auto;
+      display: block;
+    }
+  
+  
+  }
