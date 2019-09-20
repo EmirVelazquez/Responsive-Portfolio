@@ -1,4 +1,4 @@
-/* Media Queries 640px Index Page */
+/* Media Queries 640px */
 @media screen and (max-width: 640px) {
   body {
     background-color: #332f2f;
@@ -38,5 +38,36 @@
     width: 100%;
   }
   
+}
+
+/* Media Queries 768px */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  body {
+    background-color: #332f2f;
+  }
+
+  #logo {
+    margin-left: 20px;
+  }
+
+  nav {
+    padding-right: 20px;
+  }
+
+  .main-section {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+
+  .auth-image {
+    width: 60%;
+  }
+
+  .work {
+    width: 33%;
+  }
+
 
 }
+
